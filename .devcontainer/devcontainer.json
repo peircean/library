@@ -35,6 +35,7 @@
         "workbench.sideBar.location": "right",
         "git.autofetch": true,
         "editor.minimap.enabled": false,
+        "window.commandCenter": false,
         "files.associations": {
             "*.pp": "racket",
             "*.pm": "racket",
