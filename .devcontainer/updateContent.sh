@@ -34,3 +34,9 @@ printf "no\n2\n/usr/local\n" | sudo ./racket-$VERSION-x86_64-linux-cs.sh
 
 yes Y | raco pkg install racket-langserver
 yes Y | raco pkg install pollen
+yes Y | sudo apt install libglib2.0-dev
+yes Y | sudo apt install libfontconfig
+yes Y | sudo apt install libcairo2-dev
+yes Y | sudo apt install libpango-1.0-0
+yes Y | sudo apt install libpangocairo-1.0-0
+yes Y | sudo apt install libjpeg-dev
