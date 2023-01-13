@@ -25,14 +25,20 @@
 
     "extensions": [
         "ms-azuretools.vscode-docker",
-        "evzen-wybitul.magic-racket"
+        "evzen-wybitul.magic-racket",
+        "arthurwhite.white",
+        "parthr2031.colorful-comments"
     ],
 
     "settings": {
+        "workbench.colorTheme": "White Night",
+        "workbench.sideBar.location": "right",
+        "git.autofetch": true,
+        "editor.minimap.enabled": false,
         "files.associations": {
             "*.pp": "racket",
             "*.pm": "racket",
             "*.pmd": "racket"
-          }
+        }
     }
 }
